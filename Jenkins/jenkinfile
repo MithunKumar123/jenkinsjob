@@ -4,6 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'sh script.sh'
+                echo "testing webhook"
             }
         }
     }
